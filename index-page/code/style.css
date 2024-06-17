@@ -1,0 +1,269 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/* marquee */
+
+.marquee-nav{
+    background-color: rgb(14, 48, 81);
+    padding: .5%;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.marquee-div{
+    padding: 0% 5% 0% 5%;
+}
+/* .head-1 */
+.head-1{
+    background-color: #384248;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.left-section{
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    width: 50%;
+}
+.select-div{
+    width: 10vw;
+}
+#select{
+    width: 100%;
+    text-align: center;
+    background-color: #384248;
+    color: white;
+    border-style: none;
+}
+.address{
+    margin-left: 4%;
+    padding-left: 3%;
+    width: 20%;
+    text-align: left;
+    border-left: 1px solid;
+}
+.right-section{
+    display: inline;
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+.right-headItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    padding-right: 3%;
+    border-right: 1px solid;
+}
+p{
+    font-size: 12px;
+    margin-left: 5%;
+}
+.head-icon{
+    width: 1.5vw;
+}
+.birla, .bag{
+    border-style: none;
+    margin-left: 1%;
+    padding-right: 1%;
+}
+.bag{
+    margin-left: 3%;
+}
+/* head-2 */
+.head-2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3% 1% 3%;
+    font-size: 14px;
+}
+.left-section-2{
+    width: 20%;
+    text-align: center;
+    display: flex;
+}
+.right-section-2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    /* background-color: green; */
+}
+.as-logo-img{
+    width: 50%;
+}
+.search-div{
+    width: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.search-icon{
+    width: 10%;
+    height: 80%;
+}
+.search{
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    border-style: none;
+}
+.express-delivery-div{
+    display: flex;
+    align-items: center;
+    background-color: #ffdf00;
+    padding: 1% 2% 1% 2%;
+    border-radius: 50px;
+}
+.truck-icon{
+    width: 15%;
+}
+.express-delivery{
+    width: 100%;
+}
+.express-subnote{
+    font-size: 8px;
+}
+.body-big-img{
+    width: 100%;
+}
+.round-img-section-body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.round-img-div{
+    text-align: center;
+    color: rgb(14, 48, 81);
+}
+.round-img-caption{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.allen-solly-app-section{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(249, 231, 159);
+}
+.app-section-left{
+    width: 33%;
+    line-height: 2em;
+    padding: 2%;
+}
+
+.app-section-right{
+    width: 33%;
+    text-align: center;
+    padding-top: 3%;
+}
+.app-section-center{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.available-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.app-offer-text{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.use-code{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.use-code-text-div{
+    width: 17%;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.use-code-code{
+    background-color: #ffdf00;
+    width: 17%;
+    border: 1px dashed black;
+    text-align: center;
+    padding: 0% 2% 0% 2%;
+    border-radius: 5px;
+}
+.appStore{
+    padding-top: 2%;
+    width: 17%;
+}
+.playStore{
+    padding-top: 2%;
+    width: 17%;
+}
+.qr-code{
+    width: 40%;
+}
+.qr-code-caption{
+    margin-right: 5%;
+}
+.as-logo-app-section{
+    width: 100%;
+}
+
+
+/* .dropdown-products{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin-right: 10%;
+}
+.lists{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 2%;
+}
+.dropdown-list-heading{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 20%;
+}
+.four-images-lists{
+    width: 50%;
+    text-align: left;
+    border: 1px solid;
+}
+.fourImages-lines{
+    padding: 5% 5% 5% 0%;
+}
+.fourImages-line-1{
+    display: flex;
+    margin-bottom: 5%;
+    border: 1px solid;
+}
+.fourImages-line-2{
+    display: flex;
+}
+.fourImages{
+    margin-right: 5%;
+} */
+
